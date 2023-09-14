@@ -512,6 +512,20 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.disclaimer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+    background-color: rgb(54, 69, 79);
+    color: white;
+}
+.boximg{
+    height: 100px;
 }
 
 @media only screen and (max-width: 900px){
