@@ -527,6 +527,16 @@
 .boximg{
     height: 100px;
 }
+.percentage{
+    height: 400px;
+    margin-top: 50px;
+}
+.ul{
+    color: white;
+}
+.report1{
+    text-align: center;
+}
 
 @media only screen and (max-width: 900px){
     .navlist{
