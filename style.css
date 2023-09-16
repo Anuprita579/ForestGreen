@@ -344,7 +344,7 @@
     flex-direction: column;
     margin: 20px;
 }
-.reg2{
+/*.reg2{
     border-radius: 20px;
     width: 200px;
     height: 40px;
@@ -354,7 +354,7 @@
     padding-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
-}
+}*/
 .reg3{
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -366,7 +366,7 @@
     color: white;
     border: 2px solid black;
 }
-.reg4{
+/*.reg4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     justify-content: center;
@@ -376,7 +376,7 @@
 .reg4 a{
     text-decoration: none;
     color: rgb(255, 0, 123);
-}
+}*/
 .tab2{
     display: flex;
     justify-content: space-evenly;
@@ -545,6 +545,7 @@
 .edu1{
     display: flex;
 }
+
 
 @media only screen and (max-width: 900px){
     .navlist{
