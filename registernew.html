@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Login</title>
+        <title>Registration</title>
          <!-- Cool Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,7 +12,6 @@
         <!-- Our stylesheet -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <style>
-            
 .main{
     width: 100%;
     height: 100%;
@@ -146,6 +145,17 @@ input {
 
     margin-top: 5px;
 }
+.reg2 {
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 0, 123);
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
 
 #button_container button {
     width: 100%;
@@ -187,19 +197,23 @@ input {
         <div id="content_container">
             <div id="form_container">
                 <div id="form_header_container">
-                    <h2 id="form_header"> Login </h2>
+                    <h2 id="form_header"> Registration </h2>
                 </div>
 
                 <div id="form_content_container">
                     <div id="form_content_inner_container">
+                        <input type="text" id="full_name" placeholder="Full name" class="reg2">
                         <input type="email" id="email" placeholder="Email" class="reg2">
                         <input type="password" id="password" placeholder="New Password" class="reg2">
+                        <input  id="confirm_password "type="password" placeholder="Confirm a password" class="reg2">
 
 
                         <div id="button_container">
-                            <button onclick="login()">Login</button>
+                            <button onclick="register()">Register</button>
+                            <!-- <p class="reg4">Already have an account? <a href="login.html">Login in</a></p> -->
                         </div>
-                        <p class="reg4"> Don't have an account? <a href="registernew.html"> Register now</a></p>
+                        <p class="reg4">Already have an account? <a href="loginnew.html">Login in</a></p>
+                        
                     </div>
                 </div>
             </div>
